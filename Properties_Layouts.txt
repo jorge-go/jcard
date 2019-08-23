@@ -59,7 +59,7 @@ layout.t3052d.record.card-holder.field-10=fechadeaplicacion:String.8:Value From 
 
 
 
-#Segundo Layout
+#Tercero Layout
 layout.T2001D.file-path=res/T2001D_prueba.txt
 layout.T2001D.file-type=positions
 layout.T2001D.jcard-layer=1
