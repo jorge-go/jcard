@@ -1,0 +1,51 @@
+layouts=t3052d
+
+#Primer Layout
+layout.t3052d.file-path=res/T3052D_prueba.txt
+layout.t3052d.file-type=positions
+layout.t3052d.jcard-layer=1
+
+# layout socios records
+layout.t3052d.records=card-holder:n
+
+layout.t3052d.fields=26
+
+layout.t3052d.field-1=1:1:Tipo de registro:N:1
+layout.t3052d.field-2=2:2:Tipo de operación:N:1
+layout.t3052d.field-3=3:7:Entidad emisora:N:5
+layout.t3052d.field-4=8:12:Sucursal de la entidad emisora:N:5
+layout.t3052d.field-5=13:17:Entidad cobradora:N:5
+layout.t3052d.field-6=18:22:Sucursal de la entidad cobradora:N:5
+layout.t3052d.field-7=23:24:Código de moneda:N:2
+layout.t3052d.field-8=25:34:Comprobante:N:10
+layout.t3052d.field-9=35:42:Fecha de Movimiento:C:8
+layout.t3052d.field-10=43:52:Numero de Cuenta:N:10
+layout.t3052d.field-11=53:67:Importe:N:15
+layout.t3052d.field-12=68:72:Concepto de ajuste:N:5
+layout.t3052d.field-13=73:73:Debito o credito:N:1
+layout.t3052d.field-14=74:81:Fecha de Presentacion:C:8
+layout.t3052d.field-15=82:89:Fecha de Aplicación:C:8
+layout.t3052d.field-16=90:97:Fecha de Cierre Cta Corriente:C:8
+layout.t3052d.field-17=98:102:Filler:N:5
+layout.t3052d.field-18=103:114:Filler 1:N:12
+layout.t3052d.field-19=115:119:GrupoCierreCodi:N:5
+layout.t3052d.field-20=120:122:Producto:N:3
+layout.t3052d.field-21=123:127:Tipo de documento:N:5
+layout.t3052d.field-22=128:142:Numero de documento:C:15
+layout.t3052d.field-23=143:172:Apellido:C:30
+layout.t3052d.field-24=173:202:Nombre:C:30
+layout.t3052d.field-25=203:232:Ajuste descripcion:C:30
+layout.t3052d.field-26=233:300:Filler 2:N:68
+
+layout.t3052d.record.card-holder.rest-url=straight::createt3052d
+layout.t3052d.record.card-holder.fields=10
+layout.t3052d.record.card-holder.field-1=proceso:String.6:Value From Properties:T3052D
+layout.t3052d.record.card-holder.field-2=codigomoneda:String.2:Value From Field:Código de moneda
+layout.t3052d.record.card-holder.field-3=comprobante:String.10:Value From Field:Comprobante
+layout.t3052d.record.card-holder.field-4=fechademovimiento:String.8:Value From Field:Fecha de Movimiento
+layout.t3052d.record.card-holder.field-5=numerodecuenta:String.10:Value From Field:Numero de Cuenta
+layout.t3052d.record.card-holder.field-6=importe:String.15:Value From Field:Importe
+layout.t3052d.record.card-holder.field-7=conceptoajuste:String.5:Value From Field:Concepto de ajuste
+layout.t3052d.record.card-holder.field-8=debitoocredito:String.1:Value From Field:Debito o credito
+layout.t3052d.record.card-holder.field-9=fechadepresentacion:String.8:Value From Field:Fecha de Presentacion
+layout.t3052d.record.card-holder.field-10=fechadeaplicacion:String.8:Value From Field:Fecha de Aplicación
