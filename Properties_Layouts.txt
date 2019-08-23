@@ -1,4 +1,7 @@
 layouts=t3052d
+layouts=T2001D
+
+
 
 #Primer Layout
 layout.t3052d.file-path=res/T3052D_prueba.txt
@@ -49,3 +52,131 @@ layout.t3052d.record.card-holder.field-7=conceptoajuste:String.5:Value From Fiel
 layout.t3052d.record.card-holder.field-8=debitoocredito:String.1:Value From Field:Debito o credito
 layout.t3052d.record.card-holder.field-9=fechadepresentacion:String.8:Value From Field:Fecha de Presentacion
 layout.t3052d.record.card-holder.field-10=fechadeaplicacion:String.8:Value From Field:Fecha de Aplicación
+
+
+
+
+
+
+
+#Segundo Layout
+layout.T2001D.file-path=res/T2001D_prueba.txt
+layout.T2001D.file-type=positions
+layout.T2001D.jcard-layer=1
+
+#########
+layout.T2001D.fields=56
+layout.T2001D.records=card-holder:n
+
+###############
+layout.T2001D.field-1=1:1:Tipo Registro:N:1
+layout.T2001D.field-2=2:17:Número de Tarjeta:N:16
+layout.T2001D.field-3=18:22:Marca:N:5
+layout.T2001D.field-4=23:27:Entidad Emisora:N:5
+layout.T2001D.field-5=28:32:Sucursal:N:5
+layout.T2001D.field-6=33:42:Número de Cuenta:N:10
+layout.T2001D.field-7=43:44:Tipo de Socio:N:2
+layout.T2001D.field-8=45:47:Grupo de Cuenta Corriente:N:3
+layout.T2001D.field-9=48:50:Tipo de Transacción:N:3
+layout.T2001D.field-10=51:65:Número de Comercio:C:15
+
+layout.T2001D.field-11=66:87:Nombre Fantasía Comercio:C:22
+layout.T2001D.field-12=88:97:Código Postal Comercio:C:10
+layout.T2001D.field-13=98:103:Código de Autorización:C:6
+layout.T2001D.field-14=104:114:ICA Adquirente:C:11
+layout.T2001D.field-15=115:119:Código de Movimiento:N:5
+layout.T2001D.field-16=120:149:Descripción del Movimiento:C:30
+layout.T2001D.field-17=150:172:Comprobante:N:23
+layout.T2001D.field-18=173:174:Tipo de Plan:N:2
+layout.T2001D.field-19=175:177:Plan de Cuotas:N:3
+layout.T2001D.field-20=178:180:Número de cuota vigente:N:3
+layout.T2001D.field-21=181:188:Fecha de Operación:N:8
+layout.T2001D.field-22=189:194:Hora de Operación:N:6
+layout.T2001D.field-23=195:202:Fecha de Presentación:N:8
+layout.T2001D.field-24=203:210:Fecha de Cierre de Cuenta Corriente:N:8
+layout.T2001D.field-25=211:218:Fecha de Clearing:N:8
+layout.T2001D.field-26=219:226:Fecha de Diferimiento:N:8
+
+
+layout.T2001D.field-27=227:231:MCC:N:5
+layout.T2001D.field-28=232:234:Código de Moneda:N:3
+layout.T2001D.field-29=235:248:Importe en Moneda del Movimiento:N:14
+layout.T2001D.field-30=249:251:Código de Moneda Original:N:3
+layout.T2001D.field-31=252:265:Importe en Moneda Original:N:14
+
+layout.T2001D.field-32=266:279:Importe Interés:N:14
+layout.T2001D.field-33=280:293:Importe del IVA:N:14
+
+layout.T2001D.field-34=294:307:Importe Total del Movimiento:N:14
+layout.T2001D.field-35=308:321:Importe Desc Financ Otorgante:N:14
+layout.T2001D.field-36=322:335:Importe Desc Financ Otorgante IVA:N:14
+layout.T2001D.field-37=336:349:Importe de la Cuota:N:14
+layout.T2001D.field-38=350:363:Importe Interés de la Cuota:N:14
+layout.T2001D.field-39=364:377:Importe del IVA de la Cuota:N:14
+
+layout.T2001D.field-40=378:391:Importe Total de la Cuota:N:14
+layout.T2001D.field-41=392:392:DebCred:N:1
+layout.T2001D.field-42=393:393:Tipo Amortización:N:1
+layout.T2001D.field-43=394:394:Cancelación Anticipada:N:1
+layout.T2001D.field-44=395:403:TNA:N:9
+layout.T2001D.field-45=404:412:TEA:N:9
+layout.T2001D.field-46=413:421:Tasa de Intercambio:N:9
+layout.T2001D.field-47=422:434:Arancel Emisor:N:13
+layout.T2001D.field-48=435:435:Signo Arancel:C:1
+layout.T2001D.field-49=436:448:VA Arancel Emisor:N:13
+
+layout.T2001D.field-50=449:449:Signo IVA Arancel:C:60
+layout.T2001D.field-51=450:453:Motivo Mensaje:N:4
+layout.T2001D.field-52=454:466:Importe del Movimiento Convertido:N:13
+layout.T2001D.field-53=467:467:Signo Campo Anterior:N:1
+layout.T2001D.field-54=468:480:Importe Percepción RG 3450:N:13
+layout.T2001D.field-55=481:481:Signo Campo Anterior 2:N:1
+layout.T2001D.field-56=482:500:Filler:C:19
+
+
+layout.T2001D.record.card-holder.rest-url=straight::createprueba2
+layout.T2001D.record.card-holder.fields=19
+layout.T2001D.record.card-holder.field-1=proceso:String.10:Value From Properties:T3022D
+layout.T2001D.record.card-holder.field-2=numerodecuenta:String.10:Value From Field:Número de Cuenta
+layout.T2001D.record.card-holder.field-3=tipodetransaccion:String.3:Value From Field:Tipo de Transacción
+layout.T2001D.record.card-holder.field-4=numerodecomecio:String.15:Value From Field:Número de Comercio
+layout.T2001D.record.card-holder.field-5=nombrefantasiacomercio:String.22:Value From Field:Nombre Fantasía Comercio
+layout.T2001D.record.card-holder.field-6=codigodeautorizacion:String.6:Value From Field:Código de Autorización
+layout.T2001D.record.card-holder.field-7=codigodemovimiento:String.5:Value From Field:Código de Movimiento
+layout.T2001D.record.card-holder.field-8=descripciondelmovimiento:String.30:Value From Field:Descripción del Movimiento  
+layout.T2001D.record.card-holder.field-9=comprobante:String.23:Value From Field:Comprobante
+layout.T2001D.record.card-holder.field-10=fechadeoperacion:String.8:Value From Field:Fecha de Operación
+layout.T2001D.record.card-holder.field-11=horadeoperacion:String.6:Value From Field:Hora de Operación
+layout.T2001D.record.card-holder.field-12=fechadepresentacion:String.8:Value From Field:Fecha de Presentación
+layout.T2001D.record.card-holder.field-13=mcc:String.5:Value From Field:MCC
+layout.T2001D.record.card-holder.field-14=codigodemoneda:String.3:Value From Field:Código de Moneda
+layout.T2001D.record.card-holder.field-15=importeenmonedadelmovimiento:String.14:Value From Field:Importe en Moneda del Movimiento
+layout.T2001D.record.card-holder.field-16=codigodemoedaoriginal:String.3:Value From Field:Código de Moneda Original
+layout.T2001D.record.card-holder.field-17=importeenmonedaoriginal:String.14:Value From Field:Importe en Moneda Original
+layout.T2001D.record.card-holder.field-18=debcred:String.1:Value From Field:DebCred
+layout.T2001D.record.card-holder.field-19=motivomensaje:String.4:Value From Field:Motivo Mensaje
+layout.T2001D.record.card-holder.field-20=importedelmovimietoconvertido:String.13:Value From Field:Importe del Movimiento Convertido
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
