@@ -79,7 +79,6 @@ layout.T2001D.field-7=43:44:Tipo de Socio:N:2
 layout.T2001D.field-8=45:47:Grupo de Cuenta Corriente:N:3
 layout.T2001D.field-9=48:50:Tipo de Transacción:N:3
 layout.T2001D.field-10=51:65:Número de Comercio:C:15
-
 layout.T2001D.field-11=66:87:Nombre Fantasía Comercio:C:22
 layout.T2001D.field-12=88:97:Código Postal Comercio:C:10
 layout.T2001D.field-13=98:103:Código de Autorización:C:6
@@ -96,24 +95,19 @@ layout.T2001D.field-23=195:202:Fecha de Presentación:N:8
 layout.T2001D.field-24=203:210:Fecha de Cierre de Cuenta Corriente:N:8
 layout.T2001D.field-25=211:218:Fecha de Clearing:N:8
 layout.T2001D.field-26=219:226:Fecha de Diferimiento:N:8
-
-
 layout.T2001D.field-27=227:231:MCC:N:5
 layout.T2001D.field-28=232:234:Código de Moneda:N:3
 layout.T2001D.field-29=235:248:Importe en Moneda del Movimiento:N:14
 layout.T2001D.field-30=249:251:Código de Moneda Original:N:3
 layout.T2001D.field-31=252:265:Importe en Moneda Original:N:14
-
 layout.T2001D.field-32=266:279:Importe Interés:N:14
 layout.T2001D.field-33=280:293:Importe del IVA:N:14
-
 layout.T2001D.field-34=294:307:Importe Total del Movimiento:N:14
 layout.T2001D.field-35=308:321:Importe Desc Financ Otorgante:N:14
 layout.T2001D.field-36=322:335:Importe Desc Financ Otorgante IVA:N:14
 layout.T2001D.field-37=336:349:Importe de la Cuota:N:14
 layout.T2001D.field-38=350:363:Importe Interés de la Cuota:N:14
 layout.T2001D.field-39=364:377:Importe del IVA de la Cuota:N:14
-
 layout.T2001D.field-40=378:391:Importe Total de la Cuota:N:14
 layout.T2001D.field-41=392:392:DebCred:N:1
 layout.T2001D.field-42=393:393:Tipo Amortización:N:1
@@ -124,7 +118,6 @@ layout.T2001D.field-46=413:421:Tasa de Intercambio:N:9
 layout.T2001D.field-47=422:434:Arancel Emisor:N:13
 layout.T2001D.field-48=435:435:Signo Arancel:C:1
 layout.T2001D.field-49=436:448:VA Arancel Emisor:N:13
-
 layout.T2001D.field-50=449:449:Signo IVA Arancel:C:60
 layout.T2001D.field-51=450:453:Motivo Mensaje:N:4
 layout.T2001D.field-52=454:466:Importe del Movimiento Convertido:N:13
@@ -132,7 +125,6 @@ layout.T2001D.field-53=467:467:Signo Campo Anterior:N:1
 layout.T2001D.field-54=468:480:Importe Percepción RG 3450:N:13
 layout.T2001D.field-55=481:481:Signo Campo Anterior 2:N:1
 layout.T2001D.field-56=482:500:Filler:C:19
-
 
 layout.T2001D.record.card-holder.rest-url=straight::createprueba2
 layout.T2001D.record.card-holder.fields=19
