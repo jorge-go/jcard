@@ -179,6 +179,26 @@ layout.prueba3022.field-20=120:122:Codigo de Error:N:3
 layout.prueba3022.field-21=123:222:Descripcion del Error:C:100
 layout.prueba3022.field-22=223:300:Filler :C:78
 
+layout.prueba3022.records=card-holder:n
+
+layout.prueba3022.record.card-holder.rest-url=straight::createprueba3022
+layout.prueba3022.record.card-holder.fields=13
+layout.prueba3022.record.card-holder.field-1=proceso:String.10:Value From Properties:T3022D
+layout.prueba3022.record.card-holder.field-2=codigomoneda:String.2:Value From Field:Codigo de moneda
+layout.prueba3022.record.card-holder.field-3=comprobante:String.10:Value From Field:Comprobante
+layout.prueba3022.record.card-holder.field-4=fechademovimiento:String.8:Value From Field:Fecha de Movimiento
+layout.prueba3022.record.card-holder.field-5=numerodecuenta:String.10:Value From Field:Numero de Cuenta
+layout.prueba3022.record.card-holder.field-6=importe:String.15:Value From Field:Importe
+layout.prueba3022.record.card-holder.field-7=conceptoajuste:String.5:Value From Field:Concepto de ajuste
+layout.prueba3022.record.card-holder.field-8=debitoocredito:String.1:Value From Field:Debito o Credito  
+layout.prueba3022.record.card-holder.field-9=fechadepresentacion:String.8:Value From Field:Fecha de Presentacion
+layout.prueba3022.record.card-holder.field-10=fechadeaplicacion:String.8:Value From Field:Fecha de Aplicacion 
+layout.prueba3022.record.card-holder.field-11=origen:String.5:Value From Field:Origen de la Cobranza / Ajuste 
+layout.prueba3022.record.card-holder.field-12=numeroenvio:String.12:Value From Field:Nro Envio 
+layout.prueba3022.record.card-holder.field-13=codigoerror:String.3:Value From Field:Codigo de Error 
+
+
+
 
 
 
