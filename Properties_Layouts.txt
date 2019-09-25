@@ -1,18 +1,16 @@
 layouts=t3052d
-layouts=T2001D
-layouts prueba3022
+#layouts=T2001D
+#layouts prueba3022
+#layouts=T4022D
 
-############################################################################################################################################
 #Primer Layout
 layout.t3052d.file-path=res/T3052D_prueba.txt
 layout.t3052d.file-type=positions
 layout.t3052d.jcard-layer=1
 
-# layout socios records
+#layout socios records
 layout.t3052d.records=card-holder:n
-
 layout.t3052d.fields=26
-
 layout.t3052d.field-1=1:1:Tipo de registro:N:1
 layout.t3052d.field-2=2:2:Tipo de operación:N:1
 layout.t3052d.field-3=3:7:Entidad emisora:N:5
@@ -42,21 +40,63 @@ layout.t3052d.field-26=233:300:Filler 2:N:68
 
 layout.t3052d.record.card-holder.rest-url=straight::createt3052d
 layout.t3052d.record.card-holder.fields=10
-layout.t3052d.record.card-holder.field-1=proceso:String.6:Value From Properties:T3052D
-layout.t3052d.record.card-holder.field-2=codigomoneda:String.2:Value From Field:Código de moneda
-layout.t3052d.record.card-holder.field-3=comprobante:String.10:Value From Field:Comprobante
-layout.t3052d.record.card-holder.field-4=fechademovimiento:String.8:Value From Field:Fecha de Movimiento
-layout.t3052d.record.card-holder.field-5=numerodecuenta:String.10:Value From Field:Numero de Cuenta
-layout.t3052d.record.card-holder.field-6=importe:String.15:Value From Field:Importe
-layout.t3052d.record.card-holder.field-7=conceptoajuste:String.5:Value From Field:Concepto de ajuste
-layout.t3052d.record.card-holder.field-8=debitoocredito:String.1:Value From Field:Debito o credito
-layout.t3052d.record.card-holder.field-9=fechadepresentacion:String.8:Value From Field:Fecha de Presentacion
-layout.t3052d.record.card-holder.field-10=fechadeaplicacion:String.8:Value From Field:Fecha de Aplicación
+layout.t3052d.record.card-holder.field-1=process:String.6:Value From Properties:T3052D
+layout.t3052d.record.card-holder.field-2=currencyCode:String.2:Value From Field:Código de moneda
+layout.t3052d.record.card-holder.field-3=voucher:String.10:Value From Field:Comprobante
+layout.t3052d.record.card-holder.field-4=movementDate:String.8:Value From Field:Fecha de Movimiento
+layout.t3052d.record.card-holder.field-5=accountNumber:String.10:Value From Field:Numero de Cuenta
+layout.t3052d.record.card-holder.field-6=amount:String.15:Value From Field:Importe
+layout.t3052d.record.card-holder.field-7=adjustmentConcept:String.5:Value From Field:Concepto de ajuste
+layout.t3052d.record.card-holder.field-8=debitCredit:String.1:Value From Field:Debito o credito
+layout.t3052d.record.card-holder.field-9=presentationDate:String.8:Value From Field:Fecha de Presentacion
+layout.t3052d.record.card-holder.field-10=applicationDate:String.8:Value From Field:Fecha de Aplicación
 
 
+#Segundo Layout
+layout.prueba3022.file-path=res/T3022D_prueba.TXT
+layout.prueba3022.file-type=positions
+layout.prueba3022.jcard-layer=1
 
+layout.prueba3022.fields=22 
+layout.prueba3022.field-1=1:1:Tipo de Registro :N:1
+layout.prueba3022.field-2=2:2:Tipo de operacion:N:1
+layout.prueba3022.field-3=3:7:Entidad emisora:N:5
+layout.prueba3022.field-4=8:12:Sucursal de la entidad emisora:N:5
+layout.prueba3022.field-5=13:17:Entidad cobradora:N:5
+layout.prueba3022.field-6=18:22:Sucursal de la entidad cobradora:N:5
+layout.prueba3022.field-7=23:24:Codigo de moneda:N:2
+layout.prueba3022.field-8=25:34:Comprobante:N:10
+layout.prueba3022.field-9=35:42:Fecha de Movimiento:C:8
+layout.prueba3022.field-10=43:52:Numero de Cuenta:N:10
+layout.prueba3022.field-11=53:67:Importe:N:15
+layout.prueba3022.field-12=68:72:Concepto de ajuste:N:5
+layout.prueba3022.field-13=73:73:Debito o Credito:N:1
+layout.prueba3022.field-14=74:81:Fecha de Presentacion:C:8
+layout.prueba3022.field-15=82:89:Fecha de Aplicacion:C:8
+layout.prueba3022.field-16=90:97:Fecha de Cierre Cta Corriente:C:8
+layout.prueba3022.field-17=98:102:Origen de la Cobranza / Ajuste:N:5
+layout.prueba3022.field-18=103:114:Nro Envio:N:12
+layout.prueba3022.field-19=115:119:GrupoCierreCodi:N:5
+layout.prueba3022.field-20=120:122:Codigo de Error:N:3
+layout.prueba3022.field-21=123:222:Descripcion del Error:C:100
+layout.prueba3022.field-22=223:300:Filler :C:78
 
-##################################################################################################################################################
+layout.prueba3022.records=card-holder:n
+layout.prueba3022.record.card-holder.rest-url=straight::createprueba3022
+layout.prueba3022.record.card-holder.fields=13
+layout.prueba3022.record.card-holder.field-1=process:String.10:Value From Properties:T3022D
+layout.prueba3022.record.card-holder.field-2=currencyCode:String.2:Value From Field:Codigo de moneda
+layout.prueba3022.record.card-holder.field-3=voucher:String.10:Value From Field:Comprobante
+layout.prueba3022.record.card-holder.field-4=movementDate:String.8:Value From Field:Fecha de Movimiento
+layout.prueba3022.record.card-holder.field-5=accountNumber:String.10:Value From Field:Numero de Cuenta
+layout.prueba3022.record.card-holder.field-6=amount:String.15:Value From Field:Importe
+layout.prueba3022.record.card-holder.field-7=adjustmentConcept:String.5:Value From Field:Concepto de ajuste
+layout.prueba3022.record.card-holder.field-8=debitCredit:String.1:Value From Field:Debito o Credito  
+layout.prueba3022.record.card-holder.field-9=presentationDate:String.8:Value From Field:Fecha de Presentacion
+layout.prueba3022.record.card-holder.field-10=applicationDate:String.8:Value From Field:Fecha de Aplicacion 
+layout.prueba3022.record.card-holder.field-11=origin:String.5:Value From Field:Origen de la Cobranza / Ajuste 
+layout.prueba3022.record.card-holder.field-12=deliveryNumber:String.12:Value From Field:Nro Envio 
+layout.prueba3022.record.card-holder.field-13=errorCode:String.3:Value From Field:Codigo de Error
 
 
 #Tercer Layout
@@ -64,11 +104,8 @@ layout.T2001D.file-path=res/T2001D_prueba.txt
 layout.T2001D.file-type=positions
 layout.T2001D.jcard-layer=1
 
-#########
 layout.T2001D.fields=56
 layout.T2001D.records=card-holder:n
-
-###############
 layout.T2001D.field-1=1:1:Tipo Registro:N:1
 layout.T2001D.field-2=2:17:Número de Tarjeta:N:16
 layout.T2001D.field-3=18:22:Marca:N:5
@@ -127,98 +164,69 @@ layout.T2001D.field-55=481:481:Signo Campo Anterior 2:N:1
 layout.T2001D.field-56=482:500:Filler:C:19
 
 layout.T2001D.record.card-holder.rest-url=straight::createprueba2
-layout.T2001D.record.card-holder.fields=19
-layout.T2001D.record.card-holder.field-1=proceso:String.10:Value From Properties:T3022D
-layout.T2001D.record.card-holder.field-2=numerodecuenta:String.10:Value From Field:Número de Cuenta
-layout.T2001D.record.card-holder.field-3=tipodetransaccion:String.3:Value From Field:Tipo de Transacción
-layout.T2001D.record.card-holder.field-4=numerodecomecio:String.15:Value From Field:Número de Comercio
-layout.T2001D.record.card-holder.field-5=nombrefantasiacomercio:String.22:Value From Field:Nombre Fantasía Comercio
-layout.T2001D.record.card-holder.field-6=codigodeautorizacion:String.6:Value From Field:Código de Autorización
-layout.T2001D.record.card-holder.field-7=codigodemovimiento:String.5:Value From Field:Código de Movimiento
-layout.T2001D.record.card-holder.field-8=descripciondelmovimiento:String.30:Value From Field:Descripción del Movimiento  
-layout.T2001D.record.card-holder.field-9=comprobante:String.23:Value From Field:Comprobante
-layout.T2001D.record.card-holder.field-10=fechadeoperacion:String.8:Value From Field:Fecha de Operación
-layout.T2001D.record.card-holder.field-11=horadeoperacion:String.6:Value From Field:Hora de Operación
-layout.T2001D.record.card-holder.field-12=fechadepresentacion:String.8:Value From Field:Fecha de Presentación
+layout.T2001D.record.card-holder.fields=20
+layout.T2001D.record.card-holder.field-1=process:String.10:Value From Properties:T3022D
+layout.T2001D.record.card-holder.field-2=accountNumber:String.10:Value From Field:Número de Cuenta
+layout.T2001D.record.card-holder.field-3=transactionType:String.3:Value From Field:Tipo de Transacción
+layout.T2001D.record.card-holder.field-4=commerceNumber:String.15:Value From Field:Número de Comercio
+layout.T2001D.record.card-holder.field-5=commerceName:String.22:Value From Field:Nombre Fantasía Comercio
+layout.T2001D.record.card-holder.field-6=authorizationCode:String.6:Value From Field:Código de Autorización
+layout.T2001D.record.card-holder.field-7=movementCode:String.5:Value From Field:Código de Movimiento
+layout.T2001D.record.card-holder.field-8=movementDescription:String.30:Value From Field:Descripción del Movimiento  
+layout.T2001D.record.card-holder.field-9=voucher:String.23:Value From Field:Comprobante
+layout.T2001D.record.card-holder.field-10=operationDate:String.8:Value From Field:Fecha de Operación
+layout.T2001D.record.card-holder.field-11=operationTime:String.6:Value From Field:Hora de Operación
+layout.T2001D.record.card-holder.field-12=presentationDate:String.8:Value From Field:Fecha de Presentación
 layout.T2001D.record.card-holder.field-13=mcc:String.5:Value From Field:MCC
-layout.T2001D.record.card-holder.field-14=codigodemoneda:String.3:Value From Field:Código de Moneda
-layout.T2001D.record.card-holder.field-15=importeenmonedadelmovimiento:String.14:Value From Field:Importe en Moneda del Movimiento
-layout.T2001D.record.card-holder.field-16=codigodemoedaoriginal:String.3:Value From Field:Código de Moneda Original
-layout.T2001D.record.card-holder.field-17=importeenmonedaoriginal:String.14:Value From Field:Importe en Moneda Original
-layout.T2001D.record.card-holder.field-18=debcred:String.1:Value From Field:DebCred
-layout.T2001D.record.card-holder.field-19=motivomensaje:String.4:Value From Field:Motivo Mensaje
-layout.T2001D.record.card-holder.field-20=importedelmovimietoconvertido:String.13:Value From Field:Importe del Movimiento Convertido
+layout.T2001D.record.card-holder.field-14=currencyCode:String.3:Value From Field:Código de Moneda
+layout.T2001D.record.card-holder.field-15=movementAmountCurrency:String.14:Value From Field:Importe en Moneda del Movimiento
+layout.T2001D.record.card-holder.field-16=originalCurrencyCode:String.3:Value From Field:Código de Moneda Original
+layout.T2001D.record.card-holder.field-17=originalCurrencyAmount:String.14:Value From Field:Importe en Moneda Original
+layout.T2001D.record.card-holder.field-18=debitCredit:String.1:Value From Field:DebCred
+layout.T2001D.record.card-holder.field-19=reasonMessage:String.4:Value From Field:Motivo Mensaje
+layout.T2001D.record.card-holder.field-20=convertedMovementAmount:String.13:Value From Field:Importe del Movimiento Convertido
 
 
-#################################################################################################################################################
+#Cuarto Layout
+layout.T4022D.file-path=res/T4022D_01.txt
+layout.T4022D.file-type=positions
+layout.T4022D.jcard-layer=1
 
-layout.prueba3022.file-path=res/T3022D_prueba.TXT
-layout.prueba3022.file-type=positions
-layout.prueba3022.jcard-layer=1
+layout.T4022D.fields=19
+layout.T4022D.field-1=1:1:Tipo de registro:N:1
+layout.T4022D.field-2=2:6:Entidad emisora:N:5
+layout.T4022D.field-3=7:9:Marca:N:3
+layout.T4022D.field-4=10:12:Producto:N:3
+layout.T4022D.field-5=13:13:Tipo de identificacion empresa:N:1
+layout.T4022D.field-6=14:25:Empresa:N:12
+layout.T4022D.field-7=26:27:Código de Moneda:N:2
+layout.T4022D.field-8=28:37:Comprobante:N:10
+layout.T4022D.field-9=38:45:Fecha de Acreditacion:C:8
+layout.T4022D.field-10=46:46:Tipo de documento:N:1
+layout.T4022D.field-11=47:56:Número de documento:N:10
+layout.T4022D.field-12=57:71:Importe:N:15
+layout.T4022D.field-13=72:72:Debito o credito:N:1
+layout.T4022D.field-14=73:77:Origen de la carga/ajuste:N:5
+layout.T4022D.field-15=78:80:Codigo de Error:N:3
+layout.T4022D.field-16=81:180:Descripción del error:C:100
+layout.T4022D.field-17=181:181:Estado:N:1
+layout.T4022D.field-18=182:191:Nº de Cuenta:N:10
+layout.T4022D.field-19=192:250:Filler:C:59
 
-layout.prueba3022.fields=22 
-
-layout.prueba3022.field-1=1:1:Tipo de Registro :N:1
-layout.prueba3022.field-2=2:2:Tipo de operacion:N:1
-layout.prueba3022.field-3=3:7:Entidad emisora:N:5
-layout.prueba3022.field-4=8:12:Sucursal de la entidad emisora:N:5
-layout.prueba3022.field-5=13:17:Entidad cobradora:N:5
-layout.prueba3022.field-6=18:22:Sucursal de la entidad cobradora:N:5
-layout.prueba3022.field-7=23:24:Codigo de moneda:N:2
-layout.prueba3022.field-8=25:34:Comprobante:N:10
-layout.prueba3022.field-9=35:42:Fecha de Movimiento:C:8
-layout.prueba3022.field-10=43:52:Numero de Cuenta:N:10
-layout.prueba3022.field-11=53:67:Importe:N:15
-layout.prueba3022.field-12=68:72:Concepto de ajuste:N:5
-layout.prueba3022.field-13=73:73:Debito o Credito:N:1
-layout.prueba3022.field-14=74:81:Fecha de Presentacion:C:8
-layout.prueba3022.field-15=82:89:Fecha de Aplicacion:C:8
-layout.prueba3022.field-16=90:97:Fecha de Cierre Cta Corriente:C:8
-layout.prueba3022.field-17=98:102:Origen de la Cobranza / Ajuste:N:5
-layout.prueba3022.field-18=103:114:Nro Envio:N:12
-layout.prueba3022.field-19=115:119:GrupoCierreCodi:N:5
-layout.prueba3022.field-20=120:122:Codigo de Error:N:3
-layout.prueba3022.field-21=123:222:Descripcion del Error:C:100
-layout.prueba3022.field-22=223:300:Filler :C:78
-
-layout.prueba3022.records=card-holder:n
-
-layout.prueba3022.record.card-holder.rest-url=straight::createprueba3022
-layout.prueba3022.record.card-holder.fields=13
-layout.prueba3022.record.card-holder.field-1=proceso:String.10:Value From Properties:T3022D
-layout.prueba3022.record.card-holder.field-2=codigomoneda:String.2:Value From Field:Codigo de moneda
-layout.prueba3022.record.card-holder.field-3=comprobante:String.10:Value From Field:Comprobante
-layout.prueba3022.record.card-holder.field-4=fechademovimiento:String.8:Value From Field:Fecha de Movimiento
-layout.prueba3022.record.card-holder.field-5=numerodecuenta:String.10:Value From Field:Numero de Cuenta
-layout.prueba3022.record.card-holder.field-6=importe:String.15:Value From Field:Importe
-layout.prueba3022.record.card-holder.field-7=conceptoajuste:String.5:Value From Field:Concepto de ajuste
-layout.prueba3022.record.card-holder.field-8=debitoocredito:String.1:Value From Field:Debito o Credito  
-layout.prueba3022.record.card-holder.field-9=fechadepresentacion:String.8:Value From Field:Fecha de Presentacion
-layout.prueba3022.record.card-holder.field-10=fechadeaplicacion:String.8:Value From Field:Fecha de Aplicacion 
-layout.prueba3022.record.card-holder.field-11=origen:String.5:Value From Field:Origen de la Cobranza / Ajuste 
-layout.prueba3022.record.card-holder.field-12=numeroenvio:String.12:Value From Field:Nro Envio 
-layout.prueba3022.record.card-holder.field-13=codigoerror:String.3:Value From Field:Codigo de Error 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+layout.T4022D.records=card-holder:n
+layout.T4022D.record.card-holder.rest-url=straight::createT4022D
+layout.T4022D.record.card-holder.fields=14
+layout.T4022D.record.card-holder.field-1=process:String.10:Value From Properties:T4022D
+layout.T4022D.record.card-holder.field-2=product:String.3:Value From Field:Producto
+layout.T4022D.record.card-holder.field-3=companyIdentification:String.1:Value From Field:Tipo de identificacion empresa
+layout.T4022D.record.card-holder.field-4=company:String.12:Value From Field:Empresa
+layout.T4022D.record.card-holder.field-5=currencyCode:String.2:Value From Field:Código de Moneda
+layout.T4022D.record.card-holder.field-6=voucher:String.10:Value From Field:Comprobante
+layout.T4022D.record.card-holder.field-7=accreditationDate:String.8:Value From Field:Fecha de Acreditacion
+layout.T4022D.record.card-holder.field-8=documentType:String.1:Value From Field:Tipo de documento
+layout.T4022D.record.card-holder.field-9=documentNumber:String.10:Value From Field:Número de documento
+layout.T4022D.record.card-holder.field-10=amount:String.15:Value From Field:Importe
+layout.T4022D.record.card-holder.field-11=debitCredit:String.1:Value From Field:Debito o credito
+layout.T4022D.record.card-holder.field-12=origin:String.5:Value From Field:Origen de la carga/ajuste
+layout.T4022D.record.card-holder.field-13=state:String.1:Value From Field:Estado
+layout.T4022D.record.card-holder.field-14=accountNumber:String.10:Value From Field:Nº de Cuenta
